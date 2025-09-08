@@ -1,0 +1,145 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 223</p><p>生成时间: 2025-09-08 22:14:01</p>
+        <div class="error">
+            <h2>请求失败的平台</h2>
+            <ul>
+        <li>reuters</li><li>36kr</li>
+            </ul>
+        </div>
+        
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">18</td>
+                <td class="percentage">8.07%</td>
+                <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31569343" target="_blank" class="news-link">外交部回应反制日本参议员：这是对石平之流的强力惩戒和严厉警示</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mTzav5ceqd" target="_blank" class="news-link">中方“不公正”羁押美国人？外交部回应</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31568180" target="_blank" class="news-link">外交部：对日本参议员石平采取反制措施</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mU2cEyJalM" target="_blank" class="news-link">针对超300名韩国人在美被捕，特朗普最新回应</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时14分</font><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1948343290601628180" target="_blank" class="news-link">日本首相石破茂辞职，高市早苗与小泉进次郎成继任者热门人选，他们各有哪些政策主张？当选前景如何？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时14分</font></div><br>[今日头条] <a href="https://www.toutiao.com/trending/7546827844945723446/" target="_blank" class="news-link">中方对日本参议员石平采取反制措施</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755119" target="_blank" class="news-link">贝森特给出“前瞻指引”：美国经济将在四季度“大幅加速”，制造业“不能弹指一挥间建工厂”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0851798.html" target="_blank" class="news-link">美国防部改名战争部 解放军报：重新包装军事扩张</a> <font color='red'><strong>[3 - 18]</strong></font> <font color='grey'>- 22时14分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8mU0ALWqMk0" target="_blank" class="news-link">5500亿美元投资细节曝光，“日本将任由特朗普摆布”</a> [9] <font color='grey'>- 22时14分</font><br>[知乎] <a href="https://www.zhihu.com/question/1948366079710683557" target="_blank" class="news-link">韩国 2026 年将实行小学生家长 10 点上班制，可行性如何？能解决低生育率的问题吗？</a> [14] <font color='grey'>- 22时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31568455" target="_blank" class="news-link">顶尖华裔数学家科研经费中断被迫筹款：可能失去留在美国的信心</a> [15] <font color='grey'>- 22时14分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547261913877594175/" target="_blank" class="news-link">媒体：特朗普“异常冷漠”震动日本</a> [19] <font color='grey'>- 22时14分</font></div><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31567403" target="_blank" class="news-link">韩媒：韩国2026年实行“小学生家长10点上班制”</a> [20] <font color='grey'>- 22时14分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7546765054991892530/" target="_blank" class="news-link">美高官：日本5500亿拱手给美太爽了</a> [24] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0851776.html" target="_blank" class="news-link">日本国防部长到韩国进行两天访问</a> [24] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0851775.html" target="_blank" class="news-link">日本首相石破茂辞职后 日元兑新元跌0.18%</a> [25] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0851774.html" target="_blank" class="news-link">日本前外长茂木敏充宣布竞选自民党总裁</a> [26] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/politics/202509/0851765.html" target="_blank" class="news-link">美媒：美国正在调查针对中美谈判的恶意软件电邮</a> [30] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">国产 中国</td>
+                <td class="count">15</td>
+                <td class="percentage">6.73%</td>
+                <td class="titles"><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851800.html" target="_blank" class="news-link">中国将向俄能源企业重新开放国内债券市场</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 22时14分</font></div><br><div class='new-title'>🆕 [联合早报] <a href="https://www.zaochenbao.com/news/taiwan/202509/0851799.html" target="_blank" class="news-link">“九三”阅兵后 台海周边中国大陆军机活动增多</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时14分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2138744" target="_blank" class="news-link">中国联通获工信部颁发牌照 三大运营商卫星通信走到了哪一步？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851796.html" target="_blank" class="news-link">新一批中国志愿军在韩遗骸本周五回国</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851793.html" target="_blank" class="news-link">中国拟修订《监狱法》增规保障外国罪犯合法权益</a> [8] <font color='grey'>- 22时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755140" target="_blank" class="news-link">中国8月大宗商品进口季节性复苏、原油铁矿石铜回升，大豆进口量创历史新高，稀土量减价增，出口价值环比上涨51%</a> [9] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851792.html" target="_blank" class="news-link">中国多地向死亡人员发放养老金</a> [9] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851791.html" target="_blank" class="news-link">中国拟推动年内与亚细安升级自贸协定</a> [10] <font color='grey'>- 22时14分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7546913721210342951/" target="_blank" class="news-link">中国女子嫁外国贫民窟求助回国？假的</a> [12] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851789.html" target="_blank" class="news-link">中国外交部批石平数典忘祖勾连反华势力</a> [12] <font color='grey'>- 22时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2138477" target="_blank" class="news-link">COMEX黄金大涨逼近3700美元，中国央行已连续10个月增持黄金</a> [12] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851787.html" target="_blank" class="news-link">中国联通获许可开展手机直连卫星等业务</a> [14] <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851781.html" target="_blank" class="news-link">习近平：中国将持续与世界分享发展机遇</a> [20] <font color='grey'>- 22时14分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7547647523641364022/" target="_blank" class="news-link">国产芯片崛起是大势所趋</a> [26] <font color='grey'>- 22时14分</font></div><br>[联合早报] <a href="https://www.zaochenbao.com/news/Chronicles/202509/0851772.html" target="_blank" class="news-link">中国建行前副行长章更生涉受贿违法发放贷款被公诉</a> [27] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">10</td>
+                <td class="percentage">4.48%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755130" target="_blank" class="news-link">沪指震荡涨0.4%，中国联通涨超4%，CPO等AI硬件股再度大跌，恒科指超1%，百度涨超9%创年内新高、阿里涨超4%</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时14分</font><br>[联合早报] <a href="https://www.zaochenbao.com/news/china/202509/0851797.html" target="_blank" class="news-link">中国人工智能企业数量超5000家</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7546898394542227482" target="_blank" class="news-link">​​🙈AI Agent的未来：工具调用将如何重塑智能应用？​​</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7547330342706921518" target="_blank" class="news-link">前端开发 AI Agent 智能体，需要掌握哪些知识？</a> [6] <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7546793844526022656" target="_blank" class="news-link">每周学点 AI：ComfyUI + Modal 的一键部署脚本</a> [8] <font color='grey'>- 22时14分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31557636" target="_blank" class="news-link">曾被质疑也有焦虑，这位上海援青校长为高原孩子点亮AI火种</a> [13] <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7546781433844547603" target="_blank" class="news-link">Nano Banana 如何为前端注入 AI 控制力</a> [15] <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7547326488434688052" target="_blank" class="news-link">阿里Qoder重磅登场：AI编程平台新王者，程序员的饭碗要换了吗？</a> [16] <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7546473226186457107" target="_blank" class="news-link">Nano Banana免费方案来了！Docker 一键部署 + 魔搭即开即用，小白也能玩转 AI 图像编辑</a> [18] <font color='grey'>- 22时14分</font><br>[稀土掘金] <a href="https://juejin.cn/post/7547330342707298350" target="_blank" class="news-link">【论文导读】AI-Assisted Fatigue and Stamina Control for Performance Sports on IMU-Gene</a> [28] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">4</td>
+                <td class="percentage">1.79%</td>
+                <td class="titles">[少数派] <a href="https://sspai.com/post/102214" target="_blank" class="news-link">App+1｜无需跳转、深度集成，沉浸式 iOS 翻译工具：Para 翻译</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 22时14分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755129" target="_blank" class="news-link">报道：iPhone 17首发无缘国行AI，全新Air机型今年恐缺席中国市场</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时14分</font><br>[少数派] <a href="https://sspai.com/post/102244" target="_blank" class="news-link">Apple 发布会前瞻：全新设计、超薄机型…… 新 iPhone 还有哪些看点？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时14分</font><br>[少数派] <a href="https://sspai.com/post/101792" target="_blank" class="news-link">Liquid Glass 继续调整，iOS 26 Beta 近期更新值得关注的变化</a> [23] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">机器人</td>
+                <td class="count">2</td>
+                <td class="percentage">0.9%</td>
+                <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2138752" target="_blank" class="news-link">【数据看盘】机器人ETF成交额环比大增 游资、外资联手抢筹三维通信</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时14分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2138772" target="_blank" class="news-link">南向资金追踪｜净买入约167亿港元创近3周新高 大举加仓阿里及地平线机器人</a> [10] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">chatgpt openai sora</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/1947725605970895134" target="_blank" class="news-link">OpenAI 研究人员宣称已破解模型「幻觉」难题，具体情况如何？</a> [15] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles">[稀土掘金] <a href="https://juejin.cn/post/7546272985385975842" target="_blank" class="news-link">Anthropic 停止 Claude 提供给多数股权由中国资本持有的集团或其子公司使用，会给国内的AI生态带来什么影响？</a> [19] <font color='grey'>- 22时14分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">科技 军工 核能 稀土 水电站 雅鲁藏布江 黄金 新质生产力</td>
+                <td class="count">1</td>
+                <td class="percentage">0.45%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3755133" target="_blank" class="news-link">美股三大指数开盘上涨，百度涨超7%，美元持续走低，现货黄金站上3630美元</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 6 条)</h3>
+        <h4>今日头条 (2 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7547261913877594175/" target="_blank" class="news-link">媒体：特朗普“异常冷漠”震动日本</a> [19]</li><li><a href="https://www.toutiao.com/trending/7547647523641364022/" target="_blank" class="news-link">国产芯片崛起是大势所趋</a> [26]</li></ul><h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3755133" target="_blank" class="news-link">美股三大指数开盘上涨，百度涨超7%，美元持续走低，现货黄金站上3630美元</a> <font color='red'><strong>[2]</strong></font></li></ul><h4>联合早报 (2 条)</h4><ul><li><a href="https://www.zaochenbao.com/news/china/202509/0851800.html" target="_blank" class="news-link">中国将向俄能源企业重新开放国内债券市场</a> <font color='red'><strong>[1]</strong></font></li><li><a href="https://www.zaochenbao.com/news/taiwan/202509/0851799.html" target="_blank" class="news-link">“九三”阅兵后 台海周边中国大陆军机活动增多</a> <font color='red'><strong>[2]</strong></font></li></ul><h4>知乎 (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1948343290601628180" target="_blank" class="news-link">日本首相石破茂辞职，高市早苗与小泉进次郎成继任者热门人选，他们各有哪些政策主张？当选前景如何？</a> <font color='red'><strong>[3]</strong></font></li></ul></div>
+    </body>
+    </html>
+    
